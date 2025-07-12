@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  width:1200px;
+  margin: 0px auto;
+}
+.headerComp{
+  background: #021E33;
+  height: auto;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+.headerInner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.navigation{
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navLink{
+  margin: 0;
+}
+
+.navLink ul{
+  list-style: none;
+  display: flex;
+
+}
+
+.navLink ul li a{
+  margin-right: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLink ul li.loginClass{
+  border-left: 1px solid #ddd;
+  padding-left: 30px;
+}
+
+.navLink ul li.loginClass a{
+  background: #C6F0FC;
+  color: #000;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
