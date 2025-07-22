@@ -7,6 +7,7 @@ export default function studentReview(){
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. officia consequat<br></br>duis enim velit mollit. Exercitation</p>
                 </div>
                 <div>
+                    
                     <ul className="studentFeedback">
                         <li>
                             <img src="/img/quotation-mark.png" height="30" width="30" alt="FeedbakImg"></img>
