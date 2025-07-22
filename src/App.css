@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+
+body {
+   
+   font-family: "Poppins", sans-serif;
+}
+
+h1, h2{
+  font-family: "Fraunces", serif;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -52,4 +70,657 @@ display: flex;
   color: #000;
   border-radius: 50px;
   padding: 10px 20px;
+}
+.banner{
+  background-color: #081A28;
+  color: #fff;
+  padding: 40px 0px;
+}
+
+.bannerContent{
+  width: 650px;
+  margin: 0px auto;
+}
+
+.bannerContent h1{
+  font-size: 40px;
+}
+.bannerContent p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.buttonSection{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button{
+  margin: 0px 15px;
+  justify-content: center;
+  padding: 12px 30px;
+  border-radius: 40px;
+  background: #C6F0FC;
+  border: 2px solid #C6F0FC;
+} 
+
+.hilighted{
+  display: flex;
+  align-items: center;
+  background: #081A28;
+  color: #fff;
+}
+.hilighted img{
+  margin-right: 10px;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+  gap: 40px;
+}
+.image img{
+  width: calc(33.33% - 120px);
+
+}
+.category{
+  background-color: #D0E5F5;
+  display: flex;
+  padding: 40px 20px;
+}
+.category_content{
+  display: flex;
+  gap: 80px;
+}
+
+.lineButton{
+  background-color: #000;
+  color: #fff;
+  margin-left: 0;
+  padding: 8px 30px;
+  border-radius: 20px;
+  justify-content: center;
+
+}
+
+.category .content_left{
+  width: 40%;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.category .content_left h2{
+  font-size: 30px;
+  font-style: italic;
+}
+
+.category .content_right{
+  width: 60%;
+}
+
+ul.categoryList{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+ul.categoryList li{
+  width: 25%;
+  margin-bottom:30px;
+}
+
+ul.categoryList li span{
+  display:block;
+  margin-top: 10px;
+}
+
+ul.categoryList li a{
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+ul.categoryList li a img{
+  width: 60px;
+  height: 60px;
+  padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+ul.categoryList li a img:hover{
+  background: green;
+}
+
+ul.categoryList li a img.red{
+ background: red;
+}
+
+/* Popular Course component */
+
+.popularCourse{
+  margin: 80px 0px;
+}
+
+.popularCourse h2{
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.popularCourse .subheading{
+  font-size: 17px;
+  width: 65%;
+  margin: 0px auto;
+  font-weight: bold;
+
+}
+
+.latestCourse{
+  display: flex;
+  justify-content: center;
+}
+
+.latestCourse img{
+  margin-right: 12px;
+}
+
+/* latest course list card */
+ul.latestCourseList{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+  margin: 50px 0px;
+}
+
+ul.latestCourseList li{
+  width: calc(20% - 0px);
+}
+
+ul.latestCourseList li a{
+  background: #D3F5FF;
+  width: 100%;
+  height: auto;
+  display: flex;
+      flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+ul.latestCourseList li a h3{
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+ul.latestCourseList li a span{
+  color:#716E6E;
+}
+
+ul.latestCourseList li a .circleImage{
+  border: 1px solid #1A71B5;
+  padding: 12px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+ul.latestCourseList li a:hover .circleImage{
+  background: #000;
+}
+
+
+/* component name */
+
+.bestcourse_content{
+  display: flex;
+  gap: 40px;
+  
+}
+.bestCourse{
+  padding: 60px 0;
+}
+
+.bestcourse_left{
+  width: 40%;
+
+}
+
+.bestcourse_right{
+  width: 60%;
+  text-align: left;
+
+
+}
+
+.experience_content{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.yourlearningHeading{
+  margin-top: 0px;
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.learning_paragraph{
+  margin: 0;
+  font-weight: bold;
+}
+
+.sharescreen{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 8px;
+  margin-top: 0px;
+
+
+}
+.sharescreen_paragraph p{
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.presenter{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+
+}
+.presenter_content{
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+
+
+.Button{
+  text-align: left;
+  display: flex;
+
+  
+}
+
+.aboutButton{
+  background-color: #125875;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.buttonImage{
+  margin-left: 10px;
+}
+
+/* Our Course */
+
+.Ourcourse{
+  background-color: #D0E5F5;
+  padding: 40px;
+}
+
+
+.latestcourse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.coursedetails{
+  width: 100%;
+}
+.courseHeading h2{
+  margin: 0;
+  font-size: 30px;
+}
+.ourseParagraph p{
+  padding: 0;
+  background-color: red;
+
+}
+
+.courselist{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  text-decoration: none;
+
+}
+
+
+.courseItem{
+  width: calc(33.33% - 45px);
+  background-color: #E8F3FB;
+  padding: 15px;
+  border-radius: 16px;
+}
+.courseItem a{
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.coursePrice h4{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.courseItem a p{
+  text-align: left;
+
+}
+
+.courseItem a .cardImage{
+  width: 100%;
+  height: auto;
+}
+
+.coursePrice{
+  display: flex;
+  gap: 100px;
+}
+.Webrating{
+  display: flex;
+  align-items: center;
+}
+
+.AllcourseButton{
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.courseButton{
+  background-color: #1A71B5;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  border: #1A71B5 solid;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 40px auto 0;
+
+}
+
+/*   course Information   */
+
+
+.couorseInfo{
+  background-color: #0A3F68;
+}
+
+.Information{
+  display: flex;
+  width: 100%;
+  list-style: none;
+  color: #fff;
+  padding: 40px 10px;
+}
+.OnlineCourse{
+  width: 25%;
+
+}
+
+.Instructor{
+  width: 25%;
+
+}
+
+.StudentLearning{
+  width: 25%;
+
+}
+.SuccessRate{
+  width: 25%;
+
+}
+
+/* Expert Meet       */
+
+.experts{
+  background-color: #fff;
+  padding: 40px 10px;
+}
+
+.mentorImage{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.ExpertMentors{
+  justify-content: center;
+  align-items: center;
+}
+
+.expertButton{
+  background-color: #1A71B5;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: #1A71B5 solid;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 40px auto 0;
+}
+
+
+/*            */
+
+.AboutDevlopment{
+  background-color: #DFF1FF;
+  padding: 40px;
+}
+.DevText h2{
+  background-color: red;
+  margin-left: 33px;
+}
+
+
+.ViewMoreButton{
+  background-color: #1A71B5;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: #1A71B5 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  gap: 8px;
+}
+
+.DevText{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.devInfoList{
+  width: 100%;        
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 10px;
+  margin: 30px;
+  color: #000;
+}
+
+.devInfoList li{
+  width: calc(33.33% - 16px);
+  background-color: #ADD7F8;
+  border-radius: 16px;
+}
+
+.devInfoList li a{
+  text-decoration: none;
+  position: relative;
+  display:block;
+}
+
+.devInfoList li a:hover{
+  color: red;
+}
+/* .devInfoList li a:hover h3{
+  color: red;
+} */
+.devInfoList li a .largeImg{
+  width: 100%;
+  height: auto;
+}
+
+
+.devInfoList li a h3{
+  text-align: left;
+  margin: 24px 16px;
+  font-size: 18px;
+  color: #000;
+}
+
+.devInfoList li a h3:hover{
+  color: red;
+}
+
+.userInfo_dev{
+  display: flex;
+  gap:10px;
+  margin: 0px 16px 16px 16px;
+}
+
+.devInfoList li a .hoverSection{
+    background:url(/public/img/subscribeBg.png) no-repeat left top;
+    position: absolute;
+    width:100%;
+    z-index: 1;
+    height:100%;
+    padding-top: 15px;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    color: #fff;
+    display: none;
+}
+
+.devInfoList li a:hover .hoverSection{
+  display: block;
+}
+
+
+/*   subscribe  */
+.subscribeBg{
+  background:url(/public/img/subscribeBg.png) no-repeat left top;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+.subscribeBg h2{
+  font-size: 44px;
+
+}
+.sublatest{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 5px;
+}
+
+.subscribeBtn{
+  background-color: #1A71B5;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: #1A71B5 solid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  
+
+}
+
+
+
+/* feedbak */
+
+.studentReview{
+  background-color: #b9d9f1;
+  padding: 20px;
+}
+
+.studentFeedback{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 50px 30px;
+}
+
+.studentFeedback li{
+  width: calc(50% - 50px);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+/* learning community */
+
+.learningCommunity{
+  background-color: #EEF4FE;
+  padding: 40px;
+}
+
+.communityButton{
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 30px; 
+  border: #fff solid;
+  margin: 20px;
+}
+
+.communityNetwork{
+  margin: 20px;
 }

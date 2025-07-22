@@ -47,7 +47,7 @@ loginJson = [
                     <Navigation data={navLinksJson} />
                     <Navigation data={loginJson} />
             </div>
-            </div>
+            </div> 
         </header>
     );
 }
