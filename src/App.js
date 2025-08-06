@@ -12,6 +12,9 @@ import AboutDevlopment from './compnent/aboutDevlopment/aboutDevlopment';
 import Subscribe from './compnent/subscribe/subscribe';
 import StudentReview from './compnent/studentReview/studentReview';
 import LearningCommunity from './compnent/learningCommunity/learningCommunity';
+import ClientFeed from './compnent/clientFeed/clientFeed';
+import JoinUs from './compnent/joinUs/joinUs';
+import AboutUs from './compnent/aboutUs/aboutUs';
 function App() {
   return (
     <div className="App">
@@ -27,6 +30,9 @@ function App() {
      <Subscribe />
      <StudentReview />
      <LearningCommunity />
+     <ClientFeed />
+     <JoinUs />
+     <AboutUs />
      <Xyx />
     </div>
   );

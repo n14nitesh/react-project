@@ -9,7 +9,7 @@ export default function Subscribe(){
                     </div>
                     <h2>Subscribe to Our<br></br> Newsletter</h2>
 
-                    <button className="subscribeBtn">Subscribe</button>
+                    <input className="inputBox" type="test" placeholder="Enter your email...." /><button className="subscribeBtn">Subscribe</button>
                 </div>
 
             </div>

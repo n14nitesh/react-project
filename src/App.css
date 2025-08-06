@@ -548,7 +548,6 @@ ul.latestCourseList li a:hover .circleImage{
   padding: 40px;
 }
 .DevText h2{
-  background-color: red;
   margin-left: 33px;
 }
 
@@ -648,10 +647,12 @@ ul.latestCourseList li a:hover .circleImage{
 
 /*   subscribe  */
 .subscribeBg{
-  background:url(/public/img/subscribeBg.png) no-repeat left top;
+  background: #101828 url(/public/img/subscribeBg.png) no-repeat left top;
   width: 100%;
   height: auto;
   color: #fff;
+  background-size: 94%;
+  border-radius: 30px
 }
 
 .subscribeBg h2{
@@ -709,7 +710,7 @@ ul.latestCourseList li a:hover .circleImage{
 
 .learningCommunity{
   background-color: #EEF4FE;
-  padding: 40px;
+  padding: 100px;
 }
 
 .communityButton{
@@ -723,4 +724,73 @@ ul.latestCourseList li a:hover .circleImage{
 
 .communityNetwork{
   margin: 20px;
+}
+
+.inputBox{
+  border: none;
+  height: 40px;
+  border-radius: 8px 0px 0px 8px;
+  padding: 0px 16px
+}
+
+.inputBox:hover, .inputBox:focus, .inputBox:focus-within, .inputBox:focus-visible{
+  border: none;
+  outline: none;
+}
+
+
+/* Client Feedback */
+
+.clientFeedback{
+  background-color: #3188CC;
+  color: #fff;
+  padding: 40px;
+}
+
+.clientImg{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 450px;
+}
+
+
+/* Join with */
+
+.joinWith{
+  background: #101828 url(/public/img/JoinImgbg.png) no-repeat left top;
+  width: 100%;
+  background-color: #D0E5F5;
+  height: auto;
+  color: #000;
+  background-size: 94%;
+  border-radius: 30px;
+  margin-top: -100px;
+  
+}
+
+.joinWith h2{
+  padding-top: 60px;
+}
+
+
+.joinUsBtn{
+  background-color: #1A71B5;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 25px;
+  border: #1A71B5 solid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+
+/* About Us */
+
+.aboutUs{
+  background: #101828 url(/public/img/JoinImgbg.png) no-repeat left top;
+  width: 100%;
+
 }
